@@ -13,7 +13,8 @@ import './globals.css'
 const montserrat = Montserrat({
     weight: ['300', '400', '500', '700'],
     subsets: ['latin'],
-    // variable: '--var-montserrat',
+    variable: '--var-montserrat',
+    display: 'swap'
 })
 export const metadata: Metadata = {
     title: 'Ecommerce',
@@ -28,7 +29,7 @@ export default function RootLayout({
     return (
         <html lang="ru">
             <body
-                className={`${montserrat.className} flex flex-col min-h-screen relative `}
+                className={`${montserrat.variable} flex flex-col min-h-screen relative `}
             >
                 <Header />
 

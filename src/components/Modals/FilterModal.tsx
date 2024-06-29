@@ -40,7 +40,7 @@ export default function FilterModal({
         return () => {
             window.removeEventListener('resize', handleResize)
         }
-    }, [isOpen])
+    }, [isOpen, closeModal])
 
     if (isOpen) {
         return (

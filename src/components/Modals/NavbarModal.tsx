@@ -41,7 +41,7 @@ export default function NavbarModal() {
         return () => {
             window.removeEventListener('resize', handleResize)
         }
-    }, [])
+    }, [closeModal])
     if (isOpen) {
         return (
             <Sheet open={isOpen} onOpenChange={closeModal}>
