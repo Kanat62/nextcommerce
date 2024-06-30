@@ -11,6 +11,8 @@ type Props = {
     searchParams: ProductsParams
 }
 
+export const dynamic = 'force-dynamic'
+
 const Products = async ({ searchParams }: Props) => {
     const { page, category, minPrice, maxPrice, sort, brands, memories } =
         searchParams
