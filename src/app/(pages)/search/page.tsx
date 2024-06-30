@@ -1,8 +1,6 @@
 'use client'
 import ProductCard from '@/components/ProductsPage/ProductCard'
 import { useSearchProducts } from '@/hooks/useSearchProducts'
-import { IProduct } from '@/lib/types/interface'
-import { useSearchParams } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
 type Props = {
@@ -21,7 +19,7 @@ export default function SearchPage({ searchParams: q }: Props) {
     return (
         <div className="mb-10">
             <h2 className="text-xl md:text-3xl font-semibold mb-5 mt-3 ml-2 md:mb-14 md:ml-8">
-                Результаты поиска для &quot{searchQuery}&quot
+                Результаты поиска для: {searchQuery}
             </h2>
             <div className="grid grid-cols-2  sm:grid-cols-3 gap-4 sm:gap-7  lg:grid-cols-4 xl:grid-cols-5">
                 {foundProducts?.map((product) => (

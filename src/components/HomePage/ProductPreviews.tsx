@@ -21,7 +21,7 @@ const ProductPreviews = async () => {
             </div>
             <div className="w-full text-center mt-14">
                 <Link href={'/products'}>
-                    <Button className="leading-4 text-lg pb-4 py-6 px-12 shadow">
+                    <Button className="leading-4 text-base pb-4 py-5 px-12 shadow">
                         Все товары
                     </Button>
                 </Link>
