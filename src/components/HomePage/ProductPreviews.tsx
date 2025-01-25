@@ -5,7 +5,7 @@ import { Button } from '../ui/button'
 
 const ProductPreviews = async () => {
     const products = await getAllProducts()
-    const maxShowProducts = 10
+    const maxShowProducts = 8
     return (
         <div className="mb-10">
             <h2 className="text-xl md:text-3xl font-semibold mb-5 ml-2 md:mb-8 md:ml-8">
