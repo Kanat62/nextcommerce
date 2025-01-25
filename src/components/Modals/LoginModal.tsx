@@ -45,9 +45,9 @@ const LoginModal = () => {
                                     className="text-2xl mt-2 border-[#b3c1d1] border-2 focus:border-gray"
                                 />
                             </div>
-                            <p className="text-red-500 text-min">
+{/*                             <p className="text-red-500 text-min">
                                 Lorem ipsum dolor sit amet consectetur !!
-                            </p>
+                            </p> */}
                         </div>
                         <Button
                             type="submit"
