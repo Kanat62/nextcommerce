@@ -9,7 +9,7 @@ const OurServices = () => {
   return (
     <div className="mb-14">
             <div className="text-center mb-14">
-                <h1 className="text-3xl md:text-4xl font-medium mb-5">Наши услуги</h1>
+               
                <section className="max-w-4xl mx-auto px-4 mb-10 text-gray-800">
   <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6">
     Почему выбирают нас?
