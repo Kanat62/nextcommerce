@@ -13,7 +13,7 @@ const About = () => {
             <div className="text-center mb-14">
                 <h1 className="text-3xl md:text-4xl font-medium mb-5">О нас</h1>
                 <h2 className="max-w-[640px] text-start sm:text-center mx-auto mb-10 text-lg md:text-xl text-gray font-medium">
-                    Asia Store — официальный магазин техники Apple со статусом
+                    NextCommerce — официальный магазин техники Apple со статусом
                     Apple Authorized Reseller и официальный реселлер Garmin в
                     Кыргызстане, а также официальный дистрибьютор JBL & Harman
                     Kardon и умных устройств от Яндекс.
